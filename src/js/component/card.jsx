@@ -1,9 +1,9 @@
 import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 
-export function Cards() {
+export function Cards(props) {
 	return (
-		<div className="col-3 card-deck">
+		<div className="col-md card-deck">
 			<div className="card m-3">
 				<img
 					className="card-img-top"
@@ -11,7 +11,7 @@ export function Cards() {
 					alt="Card image cap"
 				/>
 				<div className="card-body">
-					<h5 className="card-title">Card title</h5>
+					<h5 className="card-title">{props.espacio}</h5>
 					<p className="card-text">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, illum ipsum? 
 					</p>

@@ -2,7 +2,7 @@ import React from "react";
 
 export function Navbar(){
     return (
-        <nav className="navbar navbar-expand-lg bg-dark">
+        <nav className="navbar navbar-expand-lg  bg-dark">
             <div className="container-fluid">
                 <a className="navbar-brand text-white" href="#">Start Bootstrap</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@ export function Navbar(){
                                 <a className="nav-link text-white" href="#">Service</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled text-white">Contact</a>
+                                <a className="nav-link text-white" href="#">Contact</a>
                             </li>
                         </ul>
                     </div>
